@@ -16,7 +16,7 @@ We're hiring, do not hesitate to contact me for more information.
 📚 I'm studdying Architecture with AWS. It's one of my goals for 2022, to become an AWS Architect. 
 
 
-### You can found me here : <a href="https://twitter.com/anhjo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="anhjo" height="30" width="40" /></a>
+### You can find me here : <a href="https://twitter.com/anhjo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="anhjo" height="30" width="40" /></a>
 
 
 ### Some of my main tools 👇
