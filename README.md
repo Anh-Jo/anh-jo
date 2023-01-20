@@ -3,17 +3,16 @@
 
 I'm a french developer and I love to craft mobile and web application. 
 
-I work with Javascript, and I'm also interested in OPS, especially on AWS / Firebase (GCP).
+I work with Javascript (ofc typescript and nodejs), and I'm also interested in OPS, especially on AWS / GCP.
 
 
+💼  I'm working for a french company [Voggt](https://github.com/bits-app) as a Lead Developper. 
 
-💼  I'm working for a french company [Planity](https://github.com/planity) as a Lead Developper.  
-Just a credit for this company and especially to the CTO, who trusts me everyday at work.  
-We're hiring, do not hesitate to contact me for more information.
+I worked for a french company [Planity](https://github.com/planity) as a Lead Developper during 4 years. 
+Just a credit for my previous company and especially to the CTO, who trusts me everyday at work.  
 
-👨‍💻 I’m currently working on [Momently](https://github.com/momently-app), a free mobile app like Instagram but with more privacy.
-
-📚 I'm studdying Architecture with AWS. It's one of my goals for 2022, to become an AWS Architect. 
+👨‍💻 I use to work on many side project, but for the moment, I'm available to create a new one.
+[Momently](https://github.com/momently-app) was my previous side project, a free mobile app like Instagram but with more privacy.
 
 
 ### You can find me here : <a href="https://twitter.com/anhjo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="anhjo" height="30" width="40" /></a>
