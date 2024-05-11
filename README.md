@@ -6,9 +6,9 @@ I'm a french developer and I love to craft mobile and web application.
 I work with Javascript (ofc typescript and nodejs), and I'm also interested in OPS, especially on AWS / GCP.
 
 
-💼  I'm working for a french company [Voggt](https://github.com/bits-app) as a Lead Developper. 
+💼  I'm working for a french company [Voggt](https://voggt.com) as a Lead Developper. 
 
-I worked for a french company [Planity](https://github.com/planity) as a Lead Developper during 4 years. 
+My previous job, was for a french company [Planity](https://planity.com) as a Lead Developper during 4 years. 
 Just a credit for my previous company and especially to the CTO, who trusts me everyday at work.  
 
 👨‍💻 I use to work on many side project, but for the moment, I'm available to create a new one.
