@@ -6,8 +6,9 @@ I'm a french developer and I love to craft mobile and web application.
 I work with Javascript (ofc typescript and nodejs).
 
 
-💼  I'm available as a Freelancer.
+💼  I'm available as a Freelancer, do not hesitate to ping me on [Linkedin](https://www.linkedin.com/in/anh-jo/) 👋
 
+I worked at : 
 - [Voggt](https://voggt.com) as a Lead Developper during 2 years and half. 
 - [Planity](https://planity.com) as a Lead Developper during 4 years. 
 Just a credit for my previous company and especially to the CTO, who trusts me everyday at work.  
