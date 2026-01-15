@@ -1,7 +1,7 @@
 # Hi 👋, I'm Anh-Jo
 
 
-I'm a french developer and I love to craft mobile and web application. 
+I'm a french freelance developer and I love to craft mobile and web application. 
 
 I work with Javascript (ofc typescript and nodejs).
 
@@ -9,9 +9,12 @@ I work with Javascript (ofc typescript and nodejs).
 💼  I'm available as a Freelancer, do not hesitate to ping me on [Linkedin](https://www.linkedin.com/in/anh-jo/) 👋
 
 I worked at : 
+- [Just](https://www.getjust.eu) during few months to implement a new solution for partners (dashboard) and customer (webapp - mobile first)
 - [Voggt](https://voggt.com) as a Lead Developper during 2 years and half. 
 - [Planity](https://planity.com) as a Lead Developper during 4 years. 
-Just a credit for my previous company and especially to the CTO, who trusts me everyday at work.  
+
+Just a special mention to Planity and especially to the CTO, who trusts me everyday at work.
+
 
 👨‍💻 I use to work on many side project, but for the moment, I'm available to create a new one.
 [Momently](https://github.com/momently-app) was my previous side project, a free mobile app like Instagram but with more privacy.
