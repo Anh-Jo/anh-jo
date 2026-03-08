@@ -17,7 +17,7 @@ Just a special mention to Planity and especially to the CTO, who trusts me every
 
 
 👨‍💻 I use to work on many side project, but for the moment, I'm available to create a new one.
-[Momently](https://github.com/momently-app) was my previous side project, a free mobile app like Instagram but with more privacy.
+[Momently](https://github.com/momently-app) was my previous public side project, a free mobile app like Instagram but with more privacy.
 
 
 ### You can find me here : <a href="https://twitter.com/anhjo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="anhjo" height="30" width="40" /></a>
