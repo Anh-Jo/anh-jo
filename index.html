@@ -1,70 +1,367 @@
 <!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="I'm a French developer, working mostly with Typescript.">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Anh-Jo Armand - French Developper</title>
-    <meta property="og:title" content="Anh-Jo Armand - French Developper"/>
-    <meta property="og:type" content="Personnal Website"/>
-    <meta property="og:url" content="https://anh-jo.tech"/>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
     <meta
-            property="og:image"
-            content="https://res.cloudinary.com/thebiga/image/upload/v1656773744/Personnal%20Branding/Anh-Jo_Armand_whitebg_adisn7.png"
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
     />
-    <link rel="icon" type="image/x-icon"
-          href="https://res.cloudinary.com/thebiga/image/upload/v1656773821/Personnal%20Branding/Anh-Jo_ARmandbgBlack_n7kwoj.png">
-    <link rel="stylesheet" href="assets/reset.css">
-    <link rel="stylesheet" href="assets/style.css">
-    <script defer data-domain="anh-jo.fr" src="https://plausible-analytics-production-72fc.up.railway.app/js/script.js"></script>
-
-</head>
-<body>
-<main>
-    <img src="https://res.cloudinary.com/thebiga/image/upload/v1656777151/Personnal%20Branding/profil_picture_xgrtsm.jpg"
-         alt="Profile picture" id="profile_picture" style="border:1px solid #D1D1F1;border-radius:4px;"/>
-    <article>
-        <h1>Hello 👋 <br/>my name is Anh-Jo </h1>
-        <p>
-            I'm a French developer and I am used to work with Javascript / Typescript. <br>
-            I can't really remember the first time I coded. The fact is, I started my working life as a Software Developer
-            only in 2018, when I realized that
-            development should be my job, and nothing else. <br>
-            After months of studies, a French company called <a href="https://planity.com">Planity</a> gave me the opportunity to be a full-time developer
-            and hired me. Now, I'm Lead developer in a company called <a href="https://voggt.com">Voggt</a>.<br>
-            When I'm not working, I like coding on some side projects.<br>
-        </p>
-        <section>
-            <h2>You can find me on some famous social networks 👇 </h2>
-            <ul style="display:flex; justify-content: flex-start; gap: 16px;">
-                <li>
-                    <a href="https://github.com/anh-jo" target="_blank">
-                        <img src="assets/GitHub-Mark-32px.png" alt="Link to social network: Github" width="32" height="32"
-                             class="social_network">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/anh-jo/" target="_blank">
-                        <img src="assets/linkedin-32.png" alt="Link to social network: Linkedin" class="social_network" width="32" height="32">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/anhjo/" target="_blank">
-                        <img src="assets/twitter-32.png" alt="Link to social network: Twitter" class="social_network" width="32" height="32">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://twitch.tv/freyjae" target="_blank">
-                        <img src="assets/TwitchGlitchBlackOps.png" alt="Link to social network: Twitch"
-                             class="social_network" width="32" height="32">
-                    </a>
-                </li>
-            </ul>
-
-        </section>
-    </article>
-</main>
-</body>
+    <title>Anh-Jo Armand — Freelance Developer</title>
+    <meta
+      name="description"
+      content="Anh-Jo Armand — French freelance developer, 9+ years building web and mobile products. Stack: React, React Native, Bun, Node, Go, NestJS, Next.js. Paris · Remote · EN/FR."
+    />
+    <meta name="author" content="Anh-Jo Armand" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta
+      name="theme-color"
+      content="#fafafa"
+      media="(prefers-color-scheme: light)"
+    />
+    <meta
+      name="theme-color"
+      content="#0a0a0a"
+      media="(prefers-color-scheme: dark)"
+    />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="canonical" href="https://anh-jo.fr/" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230a0a0a'/%3E%3Ctext x='16' y='22' font-family='system-ui,sans-serif' font-size='17' font-weight='600' fill='%23fff' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E"
+    />
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="Anh-Jo Armand — Freelance Developer" />
+    <meta
+      property="og:description"
+      content="French freelance developer · 9+ years · React, React Native, Bun, Node, Go, NestJS, Next.js · Paris · Remote · EN/FR."
+    />
+    <meta property="og:url" content="https://anh-jo.fr/" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="anh-jo.fr" />
+    <meta property="profile:first_name" content="Anh-Jo" />
+    <meta property="profile:last_name" content="Armand" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Anh-Jo Armand — Freelance Developer" />
+    <meta
+      name="twitter:description"
+      content="French freelance developer · 9+ years · React, React Native, Bun, Node, Go, NestJS, Next.js · Paris · Remote · EN/FR."
+    />
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      :root {
+        --bg: #fafafa;
+        --fg: #0a0a0a;
+        --muted: #6b6b6b;
+        --rule: #e5e5e5;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0a0a0a;
+          --fg: #f2f2f2;
+          --muted: #9a9a9a;
+          --rule: #1f1f1f;
+        }
+      }
+      html {
+        -webkit-text-size-adjust: 100%;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--fg);
+        font:
+          400 17px/1.6 ui-sans-serif,
+          system-ui,
+          -apple-system,
+          "Segoe UI",
+          Roboto,
+          Inter,
+          "Helvetica Neue",
+          Arial,
+          sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+      }
+      main {
+        max-width: 36rem;
+        margin: 0 auto;
+        padding: clamp(2rem, 8vh, 5rem) 1.5rem;
+        min-height: 100svh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      h1 {
+        font-size: clamp(1.75rem, 4vw, 2.25rem);
+        font-weight: 600;
+        letter-spacing: -0.02em;
+        line-height: 1.2;
+        margin: 0 0 0.25rem;
+      }
+      .role {
+        color: var(--muted);
+        margin: 0.25rem 0 0;
+        font-size: 1rem;
+      }
+      .meta {
+        color: var(--muted);
+        margin: 0.125rem 0 0;
+        font-size: 0.875rem;
+      }
+      .hero {
+        display: flex;
+        align-items: center;
+        gap: 1.25rem;
+        margin-bottom: 1.75rem;
+      }
+      .hero > div {
+        min-width: 0;
+      }
+      .hero h1 {
+        margin: 0;
+      }
+      p {
+        margin: 0 0 1rem;
+      }
+      a {
+        color: inherit;
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+        transition: text-decoration-thickness 0.15s ease;
+      }
+      a:hover,
+      a:focus-visible {
+        text-decoration-thickness: 2px;
+      }
+      a:focus-visible {
+        outline: 2px solid currentColor;
+        outline-offset: 3px;
+        border-radius: 2px;
+      }
+      .avatar {
+        width: 96px;
+        height: 96px;
+        border-radius: 50%;
+        object-fit: cover;
+        display: block;
+        flex-shrink: 0;
+      }
+      nav {
+        margin-top: 2.5rem;
+        padding-top: 2rem;
+        border-top: 1px solid var(--rule);
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+      }
+      nav a {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        text-decoration: none;
+      }
+      nav a span {
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+      }
+      nav a:hover span,
+      nav a:focus-visible span {
+        text-decoration-thickness: 2px;
+      }
+      .icon {
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+      }
+    </style>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Anh-Jo Armand",
+        "givenName": "Anh-Jo",
+        "familyName": "Armand",
+        "url": "https://anh-jo.fr/",
+        "jobTitle": "Freelance Developer",
+        "nationality": "French",
+        "email": "mailto:hello@anh-jo.fr",
+        "description": "French freelance developer with 9+ years of experience building web and mobile products.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Paris",
+          "addressCountry": "FR"
+        },
+        "knowsLanguage": ["French", "English"],
+        "knowsAbout": [
+          "React",
+          "React Native",
+          "Node.js",
+          "Bun",
+          "Go",
+          "NestJS",
+          "Next.js",
+          "TypeScript",
+          "JavaScript",
+          "Web Development",
+          "Mobile Development"
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/in/anh-jo/",
+          "https://github.com/anh-jo"
+        ]
+      }
+    </script>
+    <script
+      async
+      src="https://analytics.ganesia.fr/js/pa-h-0TFOOReRPDHc3cvyk9W.js"
+    ></script>
+    <script>
+      ((window.plausible =
+        window.plausible ||
+        function () {
+          (plausible.q = plausible.q || []).push(arguments);
+        }),
+        (plausible.init =
+          plausible.init ||
+          function (i) {
+            plausible.o = i || {};
+          }));
+      plausible.init();
+    </script>
+  </head>
+  <body>
+    <main>
+      <header class="hero">
+        <picture>
+          <source srcset="assets/avatar.webp" type="image/webp" />
+          <img
+            src="assets/avatar.jpg"
+            alt=""
+            width="96"
+            height="96"
+            class="avatar"
+            decoding="async"
+            fetchpriority="high"
+          />
+        </picture>
+        <div>
+          <h1>Anh-Jo Armand</h1>
+          <p class="role">Freelance developer · 9+ years</p>
+          <p class="meta">France (Paris) · Remote · EN/FR</p>
+        </div>
+      </header>
+      <p>
+        I build web and mobile products with React, React Native, Bun, Node, Go,
+        NestJS and Next.js. Currently collaborating with
+        <a href="https://upway.fr/" rel="noopener">Upway</a>, previously lead
+        developer at <a href="https://voggt.com" rel="noopener">Voggt</a> and
+        <a href="https://planity.com" rel="noopener">Planity</a>.
+      </p>
+      <nav aria-label="Contact">
+        <a
+          href="mailto:hello@anh-jo.fr"
+          data-email="hello@anh-jo.fr"
+          title="hello@anh-jo.fr"
+        >
+          <svg
+            class="icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <rect x="2" y="4" width="20" height="16" rx="2" />
+            <path d="m22 7-10 5L2 7" />
+          </svg>
+          <span>Email</span>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/anh-jo/"
+          rel="me noopener"
+          target="_blank"
+        >
+          <svg
+            class="icon"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+          >
+            <path
+              d="M20.5 2h-17A1.5 1.5 0 0 0 2 3.5v17A1.5 1.5 0 0 0 3.5 22h17a1.5 1.5 0 0 0 1.5-1.5v-17A1.5 1.5 0 0 0 20.5 2zM8 19H5V9h3v10zM6.5 7.7A1.7 1.7 0 1 1 6.5 4.3a1.7 1.7 0 0 1 0 3.4zM19 19h-3v-5.3c0-1.3-.5-2-1.5-2-1.1 0-1.7.7-1.7 2V19h-3V9h2.9v1.3c.5-.8 1.6-1.5 3-1.5 2.2 0 3.3 1.4 3.3 4V19z"
+            />
+          </svg>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/anh-jo" rel="me noopener" target="_blank">
+          <svg
+            class="icon"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+          >
+            <path
+              d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.3.5-2.4 1.3-3.2-.1-.3-.6-1.6.1-3.3 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.7 1.7.2 3 .1 3.3.8.8 1.3 1.9 1.3 3.2 0 4.7-2.8 5.7-5.5 6 .4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"
+            />
+          </svg>
+          <span>GitHub</span>
+        </a>
+        <a
+          href="assets/cv-anh-joffrey-armand.pdf"
+          target="_blank"
+          rel="noopener"
+        >
+          <svg
+            class="icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <path
+              d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+            />
+            <polyline points="14 2 14 8 20 8" />
+            <line x1="9" y1="13" x2="15" y2="13" />
+            <line x1="9" y1="17" x2="15" y2="17" />
+          </svg>
+          <span>CV</span>
+        </a>
+      </nav>
+    </main>
+    <script>
+      (() => {
+        const link = document.querySelector("[data-email]");
+        if (!link || !navigator.clipboard) return;
+        const label = link.querySelector("span");
+        const original = label.textContent;
+        let timer;
+        link.addEventListener("click", async (e) => {
+          e.preventDefault();
+          try {
+            await navigator.clipboard.writeText(link.dataset.email);
+            label.textContent = "Copied!";
+            clearTimeout(timer);
+            timer = setTimeout(() => {
+              label.textContent = original;
+            }, 1500);
+          } catch {
+            location.href = "mailto:" + link.dataset.email;
+          }
+        });
+      })();
+    </script>
+  </body>
 </html>
